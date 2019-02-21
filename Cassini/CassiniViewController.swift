@@ -31,7 +31,7 @@ class CassiniViewController: UIViewController,UISplitViewControllerDelegate {
         // Do any additional setup after loading the view.
     }
     
-    private let urls = ["Cassini":URL(string:"https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg"),"Earth":URL(string: "https://www.nasa.gov/sites/default/files/wave_earth_mosaic_3.jpg")]
+    private let urls = ["Cassini":URL(string:"https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg"),"Earth":URL(string: "https://www.nasa.gov/sites/default/files/wave_earth_mosaic_3.jpg"),"Saturn":URL.init(string: "https://www.nasa.gov/sites/default/files/saturn_collage.jpg")]
     
     
     
